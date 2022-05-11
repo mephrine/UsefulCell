@@ -1,5 +1,5 @@
 //
-//  LeftRightContentView.swift
+//  LeftRightContainerView.swift
 //  UsefulCell
 //
 //  Created by Mephrine on 2022/05/11.
