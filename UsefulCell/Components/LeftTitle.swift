@@ -15,5 +15,4 @@ public struct LeftTitle: LeftContent {
 		public let title: String
 		public let titleLineCount: UInt
 		public let style: LeftTitleStyle
-		...
 }

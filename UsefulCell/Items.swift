@@ -7,8 +7,12 @@
 
 import Foundation
 
-
 public typealias TitleChevronItem = LeftRightItem<
 	LeftTitle,
 	RightChevron
 >
+
+public typealias LeftRightItem<
+		Left: LeftContent,
+		Right: RightContent
+> = ContainerItem<LeftRightContainer<Left, Right>>

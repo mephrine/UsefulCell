@@ -8,10 +8,11 @@
 import UIKit
 
 public struct ContainerItem<Content: ContainerContent>:
-		CollectionViewItem,
-		DidSelectHandlerContainable,
-		WillDisplayHandlerContainable,
-		DidEndDisplayingHandlerContainable {
+//		CollectionViewItem,
+//		DidSelectHandlerContainable,
+//		WillDisplayHandlerContainable,
+//		DidEndDisplayingHandlerContainable
+{
  
 		public typealias Cell = ContainerCell<Content.View>
  
@@ -23,15 +24,11 @@ public struct ContainerItem<Content: ContainerContent>:
 		public let isEnabled: Bool
 		public let isSelectedBackgroundNeeded: Bool
  
-		@ForceEquatable
 		public private(set) var didSelectHandler: (() -> Void)?
  
-		@ForceEquatable
 		public private(set) var didLongPressHandler: (() -> Void)?
  
-		@ForceEquatable
 		public private(set) var willDisplayHandler: (() -> Void)?
  
-		@ForceEquatable
 		public private(set) var didEndDisplayingHandler: (() -> Void)?
 }

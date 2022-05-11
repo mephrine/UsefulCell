@@ -17,5 +17,4 @@ public struct LeftRightContainer<
 		public let left: Left
 		public let right: Right
 		public let separator: SeparatorType?
-		...
 }
